@@ -7,7 +7,6 @@ intents = {
             "Your available balance is ₹25,000."
         ]
     },
-
     "transfer": {
         "keywords": ["transfer", "send money", "pay", "payment"],
         "response": [
@@ -16,7 +15,6 @@ intents = {
             "Use the transfer option under Payments to send money."
         ]
     },
-
     "loan": {
         "keywords": ["loan", "borrow", "credit", "finance"],
         "response": [
@@ -25,7 +23,6 @@ intents = {
             "Loan options are available starting at 8% interest rate."
         ]
     },
-
     "card": {
         "keywords": ["credit card", "debit card", "card"],
         "response": [
@@ -34,7 +31,6 @@ intents = {
             "We offer multiple card options. Check the Cards section."
         ]
     },
-
     "help": {
         "keywords": ["help", "support", "customer care", "assist"],
         "response": [
