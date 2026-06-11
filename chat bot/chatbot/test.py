@@ -1,17 +1,17 @@
-from chatbot.helpers import get_response, debug_intent
+import sys
+import os
 
-test_inputs = [
-    "What is my balance?",
-    "I want to transfer money",
-    "Tell me about loans",
-    "I need a credit card",
-    "I need help",
-    "random unknown input"
-]
+# Add project root to Python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-print("Running chatbot tests...\n")
-for user_input in test_inputs:
-    print(f"User : {user_input}")
-    print(f"Debug: {debug_intent(user_input)}")
-    print(f"Bot  : {get_response(user_input)}")
-    print("-" * 50)
+from chatbot.helpers import get_response
+
+print("CHAT BOT started...")
+
+while True:
+    user = input("You: ")
+    if user.lower() == "exit":
+        break
+
+    print("Bot:", get_response(user))
+
