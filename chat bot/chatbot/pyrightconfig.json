@@ -1,0 +1,8 @@
+{
+  "pythonVersion": "3.13",
+  "pythonPlatform": "Windows",
+  "include": ["."],
+  "extraPaths": [
+    "C:\\Users\\e6wyhmm\\git_projects\\GenAI_Agents\\chat bot"
+  ]
+}
